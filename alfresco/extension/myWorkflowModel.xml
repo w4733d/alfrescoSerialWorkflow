@@ -1,0 +1,16 @@
+<model name="my:workflowmodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+	<imports>
+		<import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+		<import uri="http://www.alfresco.org/model/bpm/1.0" prefix="bpm"/>
+		<import uri="http://www.alfresco.org/model/workflow/1.0" prefix="wf"/>
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+	</imports>
+	<namespaces>
+		<namespace uri="com.model.my" prefix="my"/>
+	</namespaces>
+	<types>
+		<type name="my:submitSerialReviewTask">
+			<parent>wf:submitParallelReviewTask</parent>
+		</type>
+	</types>
+</model>
