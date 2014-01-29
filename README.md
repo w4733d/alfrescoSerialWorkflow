@@ -1,7 +1,3 @@
-alfrescoSerialWorkflow
-======================
-
-
 
 An Alfresco Serial Review and Approve Workflow process using activiti
 
